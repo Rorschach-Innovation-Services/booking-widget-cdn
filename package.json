@@ -1,0 +1,30 @@
+{
+  "name": "booking-widget-cdn",
+  "version": "1.0.0",
+  "description": "Booking widget distributed via CDN and installable as npm package",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rorschach-Innovation-Services/booking-widget-cdn.git"
+  },
+  "keywords": [
+    "booking",
+    "widget",
+    "calendar",
+    "scheduling"
+  ],
+  "author": "Rorschach Innovation Services",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "latest/",
+    "v1.0.0/",
+    "README.md"
+  ]
+}
