@@ -9,7 +9,12 @@
 if (typeof window !== 'undefined') {
   // Browser environment - load the widget script
   require('./latest/booking-widget.js');
-
+  try {
+    require('./latest/booking-widget.css');
+  } catch (e) {
+    // If require doesn't work (some bundlers), log warning
+    console.warn('BookingWidget: CSS auto-import failed. Please manually import "booking-widget-cdn/latest/booking-widget.css" in your app.');
+  }
   // Export the global BookingWidget
   module.exports = window.BookingWidget;
 } else {
