@@ -1,6 +1,6 @@
 {
   "name": "booking-widget-cdn",
-  "version": "1.0.8.9",
+  "version": "1.0.9",
   "description": "Booking widget distributed via CDN and installable as npm package",
   "main": "index.js",
   "types": "index.d.ts",
